@@ -1,0 +1,31 @@
+{
+  "name": "gulp-ionic-webbuild",
+  "version": "1.0.0",
+  "description": "Add-on Gulp tasks to optimise an Ionic project for mobile web deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "task",
+    "ionic",
+    "mobile",
+    "build"
+  ],
+  "author": "Dylan Smith",
+  "repository": "https://github.com/dylansmith/gulp-ionic-webbuild",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.5.6",
+    "gulp-angular-templatecache": "^1.5.0",
+    "gulp-if": "^1.2.5",
+    "gulp-inject": "^1.2.0",
+    "gulp-minify-html": "^1.0.1",
+    "gulp-ng-annotate": "^0.5.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-useref": "^1.1.1"
+  }
+}
